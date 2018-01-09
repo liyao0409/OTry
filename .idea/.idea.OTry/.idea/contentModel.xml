@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\liyao\.Rider2017.2\system\resharper-host\local\Transient\ReSharperHost\v10\SolutionCaches\_OTry.-1959317245.00" t="ExcludeRecursive" />
+    <e p="C:\Users\liyao\RiderProjects\OTry" t="IncludeFlat">
+      <e p="OClient" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ClientConfiguration.xml" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.0" t="Include">
+              <e p="OClient.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="OClient.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="OIfs" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="IUserService.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="OIfs.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="OIfs.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="OIps" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="OIps.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="OIps.csproj" t="IncludeRecursive" />
+        <e p="UserService.cs" t="Include" />
+      </e>
+      <e p="OServer" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.0" t="Include">
+              <e p="OServer.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="OrleansConfiguration.xml" t="Include" />
+        <e p="OServer.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="SiloHost-Test Silo-2018-01-03-02.37.45.944Z.log" t="Include" />
+        <e p="SiloHost-Test Silo-2018-01-03-03.28.31.579Z.log" t="Include" />
+        <e p="SiloHost-Test Silo-2018-01-04-02.24.30.156Z.log" t="Include" />
+        <e p="SiloHost-Test Silo-2018-01-04-02.37.00.155Z.log" t="Include" />
+        <e p="SiloHost-Test Silo-2018-01-04-02.45.13.873Z.log" t="Include" />
+        <e p="SiloHost-Test Silo-2018-01-04-02.49.19.064Z.log" t="Include" />
+        <e p="SiloHost-Test Silo-2018-01-04-02.50.29.791Z.log" t="Include" />
+        <e p="Test Silo-StartupError-2018-01-03-02.37.47.884Z.txt" t="Include" />
+        <e p="Test Silo-StartupError-2018-01-03-02.39.02.424Z.txt" t="Include" />
+        <e p="Test Silo-StartupError-2018-01-03-03.28.33.164Z.txt" t="Include" />
+        <e p="Test Silo-StartupError-2018-01-04-02.24.32.159Z.txt" t="Include" />
+        <e p="Test Silo-StartupError-2018-01-04-02.24.33.260Z.txt" t="Include" />
+        <e p="Test Silo-StartupError-2018-01-04-02.37.01.868Z.txt" t="Include" />
+        <e p="Test Silo-StartupError-2018-01-04-02.37.02.510Z.txt" t="Include" />
+        <e p="Test Silo-StartupError-2018-01-04-02.45.15.570Z.txt" t="Include" />
+        <e p="Test Silo-StartupError-2018-01-04-02.45.16.748Z.txt" t="Include" />
+        <e p="Test Silo-StartupError-2018-01-04-02.49.20.609Z.txt" t="Include" />
+        <e p="Test Silo-StartupError-2018-01-04-02.49.21.403Z.txt" t="Include" />
+        <e p="Test Silo-StartupError-2018-01-04-02.50.31.485Z.txt" t="Include" />
+        <e p="Test Silo-StartupError-2018-01-04-02.50.32.025Z.txt" t="Include" />
+      </e>
+      <e p="OTry.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

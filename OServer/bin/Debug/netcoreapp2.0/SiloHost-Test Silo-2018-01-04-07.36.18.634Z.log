@@ -1,0 +1,4 @@
+[2018-01-04 07:36:19.278 GMT 2	Information	100288	Orleans.Runtime.Host.SiloHost]	Successfully initialized Orleans silo 'Test Silo'.	
+[2018-01-04 07:36:19.281 GMT 2	Information	100441	Orleans.Runtime.Host.SiloHost]	Silo shutdown event name: Test Silo-Shutdown	
+[2018-01-04 07:36:19.281 GMT 2	Information	100443	Orleans.Runtime.Host.SiloHost]	Opened existing shutdown event. Setting the event Test Silo-Shutdown	
+[2018-01-04 07:36:22.933 GMT 2	Information	100424	Orleans.Runtime.Host.SiloHost]	Silo startup event name: Test Silo	

@@ -1,0 +1,14 @@
+C:\Users\liyao\RiderProjects\OTry\OClient\bin\Debug\netcoreapp2.0\OClient.deps.json
+C:\Users\liyao\RiderProjects\OTry\OClient\bin\Debug\netcoreapp2.0\OClient.runtimeconfig.json
+C:\Users\liyao\RiderProjects\OTry\OClient\bin\Debug\netcoreapp2.0\OClient.runtimeconfig.dev.json
+C:\Users\liyao\RiderProjects\OTry\OClient\bin\Debug\netcoreapp2.0\OClient.dll
+C:\Users\liyao\RiderProjects\OTry\OClient\bin\Debug\netcoreapp2.0\OClient.pdb
+C:\Users\liyao\RiderProjects\OTry\OClient\bin\Debug\netcoreapp2.0\OIfs.dll
+C:\Users\liyao\RiderProjects\OTry\OClient\bin\Debug\netcoreapp2.0\OIfs.pdb
+C:\Users\liyao\RiderProjects\OTry\OClient\obj\Debug\netcoreapp2.0\OClient.csprojResolveAssemblyReference.cache
+C:\Users\liyao\RiderProjects\OTry\OClient\obj\Debug\netcoreapp2.0\OClient.csproj.CoreCompileInputs.cache
+C:\Users\liyao\RiderProjects\OTry\OClient\obj\Debug\netcoreapp2.0\OClient.AssemblyInfoInputs.cache
+C:\Users\liyao\RiderProjects\OTry\OClient\obj\Debug\netcoreapp2.0\OClient.AssemblyInfo.cs
+C:\Users\liyao\RiderProjects\OTry\OClient\obj\Debug\netcoreapp2.0\OClient.dll
+C:\Users\liyao\RiderProjects\OTry\OClient\obj\Debug\netcoreapp2.0\OClient.pdb
+C:\Users\liyao\RiderProjects\OTry\OClient\bin\Debug\netcoreapp2.0\ClientConfiguration.xml

@@ -1,0 +1,33 @@
+2018-01-04-06.23.22.949ZZ
+ERROR starting Orleans silo name=Test Silo Exception=
+Exc level 0: Orleans.Runtime.OrleansLifecycleCanceledException: Lifecycle start canceled due to errors at stage 2000
+   at Orleans.LifecycleObservable.<OnStart>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Orleans.Runtime.Silo.<StartAsync>d__88.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Orleans.Runtime.Silo.Start()
+   at Orleans.Runtime.Host.SiloHost.StartOrleansSilo(Boolean catchExceptions)
+Exc level 1: Orleans.Runtime.OrleansException: Provider of type Orleans.Storage.MemoryStorage name MemoryStore was not loaded.Please check that you deployed the assembly in which the provider class is defined to the execution folder.
+   at Orleans.Providers.ProviderLoader`1.ValidateProviders()
+   at Orleans.Runtime.Storage.StorageProviderManager.LoadStorageProviders(IDictionary`2 configs)
+   at Orleans.Runtime.Scheduler.AsyncClosureWorkItem.<Execute>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Orleans.OrleansTaskExtentions.<WithTimeout>d__16.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Orleans.Runtime.Silo.<OnRuntimeServicesStart>d__92.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Orleans.LifecycleObservable.<WrapExecution>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Orleans.LifecycleObservable.<OnStart>d__4.MoveNext()
