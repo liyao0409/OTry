@@ -5,6 +5,7 @@ using Orleans;
 using Orleans.Hosting;
 using Orleans.Runtime.Configuration;
 using Orleans.Runtime.Host;
+using Orleans.Storage;
 
 namespace OServer
 {
@@ -24,7 +25,10 @@ namespace OServer
             var builder = new SiloHostBuilder()
                 .UseConfiguration(clusterConfig)
                 .ConfigureLogging(logging => logging.AddConsole())
-                .ConfigureApplicationParts(appPartMg=>appPartMg.AddFromApplicationBaseDirectory())
+                .ConfigureApplicationParts(appPartMg=>appPartMg
+                    .AddApplicationPart(typeof(MemoryStorage).Assembly)
+                    .AddApplicationPart(typeof(AdoNetStorageProvider).Assembly)
+                    .AddFromApplicationBaseDirectory())
                 ;
             
             var siloHost = builder.Build();
