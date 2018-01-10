@@ -1,6 +1,0 @@
-C:\Users\liyao\RiderProjects\OTry\OIfs\bin\Debug\netstandard2.0\OIfs.deps.json
-C:\Users\liyao\RiderProjects\OTry\OIfs\bin\Debug\netstandard2.0\OIfs.dll
-C:\Users\liyao\RiderProjects\OTry\OIfs\bin\Debug\netstandard2.0\OIfs.pdb
-C:\Users\liyao\RiderProjects\OTry\OIfs\bin\Debug\netstandard2.0\Orleans.Core.Abstractions.dll
-C:\Users\liyao\RiderProjects\OTry\OIfs\obj\Debug\netstandard2.0\codegen\OIfs.csproj.CoreCompileInputs.cache
-C:\Users\liyao\RiderProjects\OTry\OIfs\obj\Debug\netstandard2.0\codegen\OIfs.AssemblyInfoInputs.cache
