@@ -25,9 +25,10 @@ namespace OClient
             
             Console.WriteLine("输入手机号");
             var number = Console.ReadLine();
-            var userService = clusterClient.GetGrain<IUserService>(0);
-            var result = userService.Exist(number).Result;
-            Console.WriteLine(result);
+            var userService = clusterClient.GetGrain<IUserService>(1);
+            var result = userService.Exist(number);
+            
+            Console.WriteLine(result.Result);
 
             await clusterClient.Close();
         }

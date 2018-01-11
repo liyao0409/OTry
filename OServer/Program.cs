@@ -28,6 +28,7 @@ namespace OServer
                 .ConfigureApplicationParts(appPartMg=>appPartMg
                     .AddApplicationPart(typeof(MemoryStorage).Assembly)
                     .AddApplicationPart(typeof(AdoNetStorageProvider).Assembly)
+                    .AddApplicationPart(typeof(ShardedStorageProvider).Assembly)
                     .AddFromApplicationBaseDirectory())
                 ;
             

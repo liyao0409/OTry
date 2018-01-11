@@ -4,10 +4,25 @@
         <StorageProviders>
           <!--<Provider Type="Orleans.Storage.MemoryStorage" Name="MemoryStore" />-->
           <Provider Type="Orleans.Storage.AdoNetStorageProvider"
-                    Name="Default"
+                    Name="s1"
                     AdoInvariant="System.Data.SqlClient"
                     DataConnectionString="Server=(LocalDB)\MSSQLLocalDB;Integrated Security=true;AttachDbFileName=C:\Users\liyao\RiderProjects\OTry\OServer\data\OrleansState.mdf"
                     UseJsonFormat="true" />
+          <Provider Type="Orleans.Storage.AdoNetStorageProvider"
+                    Name="s2"
+                    AdoInvariant="System.Data.SqlClient"
+                    DataConnectionString="Server=(LocalDB)\MSSQLLocalDB;Integrated Security=true;AttachDbFileName=C:\Users\liyao\RiderProjects\OTry\OServer\data\OrleansState2.mdf"
+                    UseJsonFormat="true" />
+          <Provider Type="Orleans.Storage.AdoNetStorageProvider"
+                    Name="s3"
+                    AdoInvariant="System.Data.SqlClient"
+                    DataConnectionString="Server=(LocalDB)\MSSQLLocalDB;Integrated Security=true;AttachDbFileName=C:\Users\liyao\RiderProjects\OTry\OServer\data\OrleansState3.mdf"
+                    UseJsonFormat="true" />
+          <Provider Type="Orleans.Storage.ShardedStorageProvider" Name="Default">
+            <Provider Name="s1"></Provider>
+            <Provider Name="s2"></Provider>
+            <Provider Name="s3"></Provider>
+          </Provider>
         </StorageProviders>
         <SeedNode Address="localhost" Port="22222"/>
         <!--<Messaging ResponseTimeout="30s"/>-->
