@@ -17,6 +17,7 @@ namespace OIps
     {
         public Task<bool> Exist(string mobileNumber)
         {
+            this.GetLogger().Log(99999999,Severity.Info,State.Name,null,null);
             State.Name = "Leon";
             State.Address = "Dalian";
             base.WriteStateAsync().Wait();

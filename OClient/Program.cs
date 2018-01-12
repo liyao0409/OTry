@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using OIfs;
 using Orleans;
@@ -27,10 +28,51 @@ namespace OClient
             var number = Console.ReadLine();
             var userService = clusterClient.GetGrain<IUserService>(1);
             var result = userService.Exist(number);
-            
+
+            while (!result.IsCompleted)
+            {
+                
+            }
+            if (result.Status == TaskStatus.Faulted)
+            {
+                foreach (var exceptionInnerException in result.Exception.InnerExceptions)
+                {
+                    Console.WriteLine(exceptionInnerException.Message);
+                }
+            }
+            //try
+            //{
+            //    result.Wait();
+            //}
+            //catch (AggregateException e)
+            //{
+            //    foreach (var eInnerException in e.InnerExceptions)
+            //    {
+            //        Console.WriteLine(eInnerException.Message);
+            //    }
+            //    Console.WriteLine(e.Message);
+            //}
             Console.WriteLine(result.Result);
 
             await clusterClient.Close();
+        }
+    }
+
+    public class MyTaskScheduler : TaskScheduler
+    {
+        protected override IEnumerable<Task> GetScheduledTasks()
+        {
+            throw new NotImplementedException();
+        }
+
+        protected override void QueueTask(Task task)
+        {
+            throw new NotImplementedException();
+        }
+
+        protected override bool TryExecuteTaskInline(Task task, bool taskWasPreviouslyQueued)
+        {
+            throw new NotImplementedException();
         }
     }
 }
